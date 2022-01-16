@@ -16,7 +16,7 @@ namespace HalloweenLightsWFA
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new CrazySceneBuilder());
+            Application.Run(new MasterForm());
         }
     }
 }
