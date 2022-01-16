@@ -1,0 +1,28 @@
+C:\Users\vverm\Documents\CodingStuff\Projects Visual Studio\HalloweenLightsWFA\bin\Debug\HalloweenLightsWFA.exe.config
+C:\Users\vverm\Documents\CodingStuff\Projects Visual Studio\HalloweenLightsWFA\bin\Debug\HalloweenLightsWFA.exe
+C:\Users\vverm\Documents\CodingStuff\Projects Visual Studio\HalloweenLightsWFA\bin\Debug\HalloweenLightsWFA.pdb
+C:\Users\vverm\Documents\CodingStuff\Projects Visual Studio\HalloweenLightsWFA\obj\Debug\HalloweenLightsWFA.csproj.AssemblyReference.cache
+C:\Users\vverm\Documents\CodingStuff\Projects Visual Studio\HalloweenLightsWFA\obj\Debug\HalloweenLightsWFA.CrazySceneBuilder.resources
+C:\Users\vverm\Documents\CodingStuff\Projects Visual Studio\HalloweenLightsWFA\obj\Debug\HalloweenLightsWFA.Properties.Resources.resources
+C:\Users\vverm\Documents\CodingStuff\Projects Visual Studio\HalloweenLightsWFA\obj\Debug\HalloweenLightsWFA.csproj.GenerateResource.cache
+C:\Users\vverm\Documents\CodingStuff\Projects Visual Studio\HalloweenLightsWFA\obj\Debug\HalloweenLightsWFA.csproj.CoreCompileInputs.cache
+C:\Users\vverm\Documents\CodingStuff\Projects Visual Studio\HalloweenLightsWFA\obj\Debug\HalloweenLightsWFA.exe
+C:\Users\vverm\Documents\CodingStuff\Projects Visual Studio\HalloweenLightsWFA\obj\Debug\HalloweenLightsWFA.pdb
+C:\Users\Vincent\Documents\Code\CrazySceneBuilder\bin\Debug\HalloweenLightsWFA.exe.config
+C:\Users\Vincent\Documents\Code\CrazySceneBuilder\bin\Debug\HalloweenLightsWFA.exe
+C:\Users\Vincent\Documents\Code\CrazySceneBuilder\bin\Debug\HalloweenLightsWFA.pdb
+C:\Users\Vincent\Documents\Code\CrazySceneBuilder\obj\Debug\HalloweenLightsWFA.csproj.AssemblyReference.cache
+C:\Users\Vincent\Documents\Code\CrazySceneBuilder\obj\Debug\HalloweenLightsWFA.CrazySceneBuilder.resources
+C:\Users\Vincent\Documents\Code\CrazySceneBuilder\obj\Debug\HalloweenLightsWFA.Properties.Resources.resources
+C:\Users\Vincent\Documents\Code\CrazySceneBuilder\obj\Debug\HalloweenLightsWFA.csproj.GenerateResource.cache
+C:\Users\Vincent\Documents\Code\CrazySceneBuilder\obj\Debug\HalloweenLightsWFA.csproj.CoreCompileInputs.cache
+C:\Users\Vincent\Documents\Code\CrazySceneBuilder\obj\Debug\HalloweenLightsWFA.exe
+C:\Users\Vincent\Documents\Code\CrazySceneBuilder\obj\Debug\HalloweenLightsWFA.pdb
+C:\Users\Vincent\Documents\Code\CrazySceneBuilder\obj\Debug\HalloweenLightsWFA.frmHome.resources
+C:\Users\Vincent\Documents\Code\CrazySceneBuilder\obj\Debug\HalloweenLightsWFA.frmLights.resources
+C:\Users\vverm\Documents\CodingStuff\Projects Visual Studio\HalloweenLightsWFA\obj\Debug\HalloweenLightsWFA.frmHome.resources
+C:\Users\vverm\Documents\CodingStuff\Projects Visual Studio\HalloweenLightsWFA\obj\Debug\HalloweenLightsWFA.frmLights.resources
+C:\Users\Vincent\Documents\Code\CrazySceneBuilder\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Vincent\Documents\Code\CrazySceneBuilder\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Vincent\Documents\Code\CrazySceneBuilder\obj\Debug\HalloweenLightsWFA.csproj.CopyComplete
+C:\Users\Vincent\Documents\Code\CrazySceneBuilder\bin\Debug\Q42.HueApi.dll
