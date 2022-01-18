@@ -13,6 +13,8 @@ namespace HalloweenLightsWFA
 {
     public partial class frmHome : Form
     {
+        public MasterForm MasterForm { get; set; }
+        public List<LightAnimation> LightAnimations { get; set; }
         SceneController sceneController = new SceneController();
 
         public frmHome()
@@ -36,7 +38,7 @@ namespace HalloweenLightsWFA
 
         private void BtnStartLights_Click(object sender, EventArgs e)
         {
-            sceneController.StartLights();
+            sceneController.StartLights(LightAnimations);
         }
 
         private void BtnStartCasting_Click(object sender, EventArgs e)

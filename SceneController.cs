@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 using System.Diagnostics;
 using System.IO;
 using Q42.HueApi;
+using Q42.HueApi.ColorConverters;
 using System.Threading;
+using Q42.HueApi.ColorConverters.Gamut;
+using Q42.HueApi.ColorConverters.HSB;
+using Q42.HueApi.ColorConverters.Original;
 
 namespace HalloweenLightsWFA
 {
@@ -103,18 +107,29 @@ namespace HalloweenLightsWFA
 			return Registered;
 		}
 
-		public bool StartLights()
+		public bool StartLights(List<LightAnimation> lightAnimations)
 		{
 			InitClient();
 
-			LightCommand command = new LightCommand
+			foreach(LightAnimation animation in lightAnimations)
+			{
+				LightCommand command = new LightCommand
+				{
+					On = true,
+					TransitionTime = animation.TransitionTime,
+				};
+				command.SetColor(new RGBColor(animation.RGB[0], animation.RGB[1], animation.RGB[2]));
+				Client.SendCommandAsync(command, new List<string> { animation.LightName });
+			}
+
+			LightCommand command2 = new LightCommand
 			{
 				//Alert = Alert.Once
 				On = true,
 				Effect = Effect.ColorLoop
 			};
 
-			Client.SendCommandAsync(command, new List<string> { "38" });
+			Client.SendCommandAsync(command2, new List<string> { "38" });
 			//Client.SendCommandAsync(command);
 			return true;
 		}
@@ -123,7 +138,8 @@ namespace HalloweenLightsWFA
 		{
 			InitClient();
 			IEnumerable<Light> Lights = await Client.GetLightsAsync();
-			return Lights;
+			IEnumerable<Light> OrderedLights = Lights.OrderBy(light => light.Id);
+			return OrderedLights;
 		}
 
 		private bool InitClient()

@@ -12,7 +12,6 @@ C:\Users\Vincent\Documents\Code\CrazySceneBuilder\bin\Debug\HalloweenLightsWFA.e
 C:\Users\Vincent\Documents\Code\CrazySceneBuilder\bin\Debug\HalloweenLightsWFA.exe
 C:\Users\Vincent\Documents\Code\CrazySceneBuilder\bin\Debug\HalloweenLightsWFA.pdb
 C:\Users\Vincent\Documents\Code\CrazySceneBuilder\obj\Debug\HalloweenLightsWFA.csproj.AssemblyReference.cache
-C:\Users\Vincent\Documents\Code\CrazySceneBuilder\obj\Debug\HalloweenLightsWFA.CrazySceneBuilder.resources
 C:\Users\Vincent\Documents\Code\CrazySceneBuilder\obj\Debug\HalloweenLightsWFA.Properties.Resources.resources
 C:\Users\Vincent\Documents\Code\CrazySceneBuilder\obj\Debug\HalloweenLightsWFA.csproj.GenerateResource.cache
 C:\Users\Vincent\Documents\Code\CrazySceneBuilder\obj\Debug\HalloweenLightsWFA.csproj.CoreCompileInputs.cache
@@ -26,3 +25,5 @@ C:\Users\Vincent\Documents\Code\CrazySceneBuilder\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Vincent\Documents\Code\CrazySceneBuilder\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Vincent\Documents\Code\CrazySceneBuilder\obj\Debug\HalloweenLightsWFA.csproj.CopyComplete
 C:\Users\Vincent\Documents\Code\CrazySceneBuilder\bin\Debug\Q42.HueApi.dll
+C:\Users\Vincent\Documents\Code\CrazySceneBuilder\obj\Debug\HalloweenLightsWFA.MasterForm.resources
+C:\Users\Vincent\Documents\Code\CrazySceneBuilder\bin\Debug\Q42.HueApi.ColorConverters.dll

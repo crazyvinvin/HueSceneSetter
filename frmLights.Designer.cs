@@ -45,6 +45,7 @@ namespace HalloweenLightsWFA
 			this.TransitionTimeColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.GValue = new System.Windows.Forms.TextBox();
 			this.BValue = new System.Windows.Forms.TextBox();
+			this.ListBoxLights = new System.Windows.Forms.ListBox();
 			((System.ComponentModel.ISupportInitialize)(this.AnimationTable)).BeginInit();
 			this.SuspendLayout();
 			// 
@@ -205,12 +206,22 @@ namespace HalloweenLightsWFA
 			this.BValue.TabIndex = 16;
 			this.BValue.Text = "255";
 			// 
+			// ListBoxLights
+			// 
+			this.ListBoxLights.FormattingEnabled = true;
+			this.ListBoxLights.ItemHeight = 20;
+			this.ListBoxLights.Location = new System.Drawing.Point(547, 648);
+			this.ListBoxLights.Name = "ListBoxLights";
+			this.ListBoxLights.Size = new System.Drawing.Size(719, 324);
+			this.ListBoxLights.TabIndex = 17;
+			// 
 			// frmLights
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.SlateGray;
 			this.ClientSize = new System.Drawing.Size(1320, 1005);
+			this.Controls.Add(this.ListBoxLights);
 			this.Controls.Add(this.BValue);
 			this.Controls.Add(this.GValue);
 			this.Controls.Add(this.AnimationTable);
@@ -227,6 +238,7 @@ namespace HalloweenLightsWFA
 			this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.Name = "frmLights";
 			this.Text = "frmLights";
+			this.Load += new System.EventHandler(this.frmLights_Load);
 			((System.ComponentModel.ISupportInitialize)(this.AnimationTable)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
@@ -251,5 +263,6 @@ namespace HalloweenLightsWFA
 		private System.Windows.Forms.DataGridViewTextBoxColumn RGBColumn;
 		private System.Windows.Forms.DataGridViewTextBoxColumn RepeatColumn;
 		private System.Windows.Forms.DataGridViewTextBoxColumn TransitionTimeColumn;
+		private System.Windows.Forms.ListBox ListBoxLights;
 	}
 }

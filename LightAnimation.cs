@@ -9,13 +9,13 @@ using Newtonsoft.Json;
 
 namespace HalloweenLightsWFA
 {
-	class LightAnimation
+	public class LightAnimation
 	{
 		public int LightAnimationNumber { get; }
 		public string LightName { get; set; }
 		public int[] RGB { get; set; }
 		public int Repeat { get; set; }
-		public int TransitionTime { get; set; }
+		public TimeSpan TransitionTime { get; set; }
 
 		public LightAnimation(int _lightAnimationNumber)
 		{

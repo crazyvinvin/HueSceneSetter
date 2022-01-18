@@ -10,12 +10,11 @@ using System.Windows.Forms;
 
 namespace HalloweenLightsWFA
 {
-    public partial class CrazySceneBuilder : Form
+    public partial class MasterForm : Form
     {
         public static frmHome HomeForm { get; set; }
         public static frmLights LightsForm { get; set; }
-
-        public CrazySceneBuilder()
+        public MasterForm()
         {
             InitializeComponent();
         }
@@ -37,15 +36,14 @@ namespace HalloweenLightsWFA
                 TopMost = true,
                 FormBorderStyle = FormBorderStyle.None
             };
-
         }
-
         private void btnHome_Click(object sender, EventArgs e)
         {
             SelectionPanel.Height = btnHome.Height;
             SelectionPanel.Location = btnHome.Location;
             pnlFormLoader.Controls.Clear();
             pnlFormLoader.Controls.Add(HomeForm);
+            HomeForm.MasterForm = this;
             HomeForm.Show();
         }
 
@@ -55,6 +53,7 @@ namespace HalloweenLightsWFA
             SelectionPanel.Location = btnLights.Location;
             pnlFormLoader.Controls.Clear();
             pnlFormLoader.Controls.Add(LightsForm);
+            LightsForm.MasterForm = this;
             LightsForm.Show();
         }
 

@@ -39,6 +39,9 @@
     <Reference Include="Q42.HueApi, Version=3.18.1.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Q42.HueApi.3.18.1\lib\net45\Q42.HueApi.dll</HintPath>
     </Reference>
+    <Reference Include="Q42.HueApi.ColorConverters, Version=3.18.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Q42.HueApi.ColorConverters.3.18.1\lib\net45\Q42.HueApi.ColorConverters.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Core" />
@@ -87,13 +90,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cast.cs" />
-    <Compile Include="Device.cs" />
-    <Compile Include="CrazySceneBuilder.cs">
+    <Compile Include="MasterForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CrazySceneBuilder.Designer.cs">
-      <DependentUpon>CrazySceneBuilder.cs</DependentUpon>
+    <Compile Include="MasterForm.Designer.cs">
+      <DependentUpon>MasterForm.cs</DependentUpon>
     </Compile>
     <Compile Include="frmHome.cs">
       <SubType>Form</SubType>
@@ -110,12 +111,9 @@
     <Compile Include="LightAnimation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Room.cs" />
     <Compile Include="SceneController.cs" />
-    <Compile Include="Setting.cs" />
-    <Compile Include="Sound.cs" />
-    <EmbeddedResource Include="CrazySceneBuilder.resx">
-      <DependentUpon>CrazySceneBuilder.cs</DependentUpon>
+    <EmbeddedResource Include="MasterForm.resx">
+      <DependentUpon>MasterForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmHome.resx">
       <DependentUpon>frmHome.cs</DependentUpon>

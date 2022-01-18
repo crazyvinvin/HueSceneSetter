@@ -1,7 +1,7 @@
 ﻿
 namespace HalloweenLightsWFA
 {
-    partial class CrazySceneBuilder
+    partial class MasterForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace HalloweenLightsWFA
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CrazySceneBuilder));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MasterForm));
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.MenuPanel = new System.Windows.Forms.Panel();
             this.btnExtraInfo = new System.Windows.Forms.Button();
